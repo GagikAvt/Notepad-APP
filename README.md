@@ -8,49 +8,68 @@
 
 ### Установка зависимостей
 
-Перейдите в корневую директорию проекта и выполните команду:
+Перейдите в корневую директорию проекта и выполните команду:  
+
 npm install
 
 #### Запуск сервера
-Перейдите в директорию server и выполните:
+Перейдите в директорию server и выполните:  
+
 node server.js
 
 Сервер будет доступен по адресу http://localhost:3000
 
 ###### Запуск фронтенда
-В корневой директории проекта выполните:
+В корневой директории проекта выполните:  
+
 http-server public
 
 Фронтенд будет доступен по адресу http://localhost:8080
 
 # API Эндпоинты
 
-GET /api/notes: Получение списка заметок.
-POST /api/notes: Добавление новой заметки.
+GET /api/notes: Получение списка заметок.  
+
+POST /api/notes: Добавление новой заметки.  
+
 DELETE /api/notes/:id: Удаление заметки по идентификатору.
 
 # Структура проекта
 
-notepad-app/
-|-- public/
-|   |-- index.html
-|   |-- style.css
-|   |-- main.js
-|-- server/
-|   |-- server.js
-|-- data/
-|   |-- notes.json
-|-- package.json
-|-- package-lock.json
+notepad-app/  
+
+|-- public/  
+
+|   |-- index.html  
+
+|   |-- style.css  
+
+|   |-- main.js  
+
+|-- server/  
+
+|   |-- server.js  
+
+|-- data/  
+
+|   |-- notes.json  
+
+|-- package.json  
+
+|-- package-lock.json  
+
 |-- README.md
 
 # Технологии
-Frontend: HTML, CSS, JavaScript
-Backend: Node.js, Express.js
+Frontend: HTML, CSS, JavaScript  
+
+Backend: Node.js, Express.js  
+
 Хранение данных: JSON файл
 
 # Зависимости
-Express.js: Фреймворк для Node.js.
+Express.js: Фреймворк для Node.js.  
+
 http-server: Простой веб-сервер для статических файлов.
 
 # Автор
